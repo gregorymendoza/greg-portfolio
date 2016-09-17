@@ -1,0 +1,80 @@
+body {
+	font: 14px 'Josefin Sans', sans-serif;
+	color: #777;
+	padding: 20px 0;
+}
+
+.logo {
+	max-width: 115px;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.title-name {
+	font-size: 50px;
+	font-weight: 100;
+	margin: 0;
+}
+
+.title-job {
+	margin: 5px 0;
+}
+
+hr {
+	border: 2px solid #bbb;
+}
+
+.featured-heading {
+	font-size: 36px;
+	color: #aaa;
+}
+
+.project {
+	padding-bottom: 30px;
+}
+
+.project-name {
+	margin-top: 10px;
+}
+
+.project-link {
+	color: #555;
+	font-size: 16px;
+}
+
+footer:before {
+	content: '';
+    display: block;
+    width: 260px;
+    height: 1px;
+    background-color: #ddd;
+    margin: 40px auto 10px;
+}
+
+@media screen and (max-width: 610px) {
+	.title-name {
+		font-size: 36px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.logo {
+		margin: 0;
+	}
+
+	.title {
+		text-align: right;
+	}
+
+	.project {
+		padding-bottom: 0;
+	}
+
+	.project-name {
+		margin-top: 20px;
+	}
+}
