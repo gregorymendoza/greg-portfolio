@@ -60,7 +60,7 @@ hr {
 
 /****** MEDIA QUERIES ******/
 @media screen and (max-width: 610px) {
-	.title-name {
+	.main-title-name {
 		font-size: 36px;
 	}
 }
