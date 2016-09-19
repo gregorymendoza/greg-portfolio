@@ -1,33 +1,36 @@
+/****** GENERAL ******/
 body {
-	font: 14px 'Josefin Sans', sans-serif;
+	font: 14px "Josefin Sans", sans-serif;
 	color: #777;
 	padding: 20px 0;
-}
-
-.logo {
-	max-width: 115px;
-	margin: 0 auto;
-}
-
-.title {
-	text-align: center;
-	margin-top: 15px;
-}
-
-.title-name {
-	font-size: 50px;
-	font-weight: 100;
-	margin: 0;
-}
-
-.title-job {
-	margin: 5px 0;
 }
 
 hr {
 	border: 2px solid #bbb;
 }
 
+/****** HEADER ******/
+.logo {
+	max-width: 115px;
+	margin: 0 auto;
+}
+
+.main-title {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.main-title-name {
+	font-size: 50px;
+	font-weight: 100;
+	margin: 0;
+}
+
+.main-title-job {
+	margin: 5px 0;
+}
+
+/****** PROJECTS ******/
 .featured-heading {
 	font-size: 36px;
 	color: #aaa;
@@ -46,7 +49,8 @@ hr {
 	font-size: 16px;
 }
 
-footer:before {
+/****** FOOTER ******/
+.footer:before {
 	content: '';
     display: block;
     width: 260px;
@@ -55,6 +59,7 @@ footer:before {
     margin: 40px auto 10px;
 }
 
+/****** MEDIA QUERIES ******/
 @media screen and (max-width: 610px) {
 	.title-name {
 		font-size: 36px;
@@ -66,7 +71,7 @@ footer:before {
 		margin: 0;
 	}
 
-	.title {
+	.main-title {
 		text-align: right;
 	}
 
