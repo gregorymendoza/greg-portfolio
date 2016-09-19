@@ -11,6 +11,12 @@ hr {
 
 
 /* Header */
+.main-header {
+	border-bottom: 5px solid #bbb;
+	padding-bottom: 20px;
+	margin: 0 0 20px;
+}
+
 .logo {
 	margin: 0 auto;
 }
@@ -71,6 +77,11 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
+	.main-header {
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+
 	.logo {
 		margin: 0;
 	}
